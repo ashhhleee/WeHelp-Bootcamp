@@ -26,18 +26,36 @@
 </head>
 
 <body>
-          main{
-               display:flex;
-               justify-content:flex-start;
-           
-                <li><a href="https://www.youtube.com/">Youtube</a></li>
+          
+  <div class="topleft">My Website</div>
+  
+  <nav style=”display:none;”>
+           <div class=”logo”>Logo</div>
+           <div class=”menu”>Menu</div>
+           <div class=”user”>User</div>
+       </nav>
+              
+ 
+  
+  main{
+       display:flex;
+       justify-content:flex-start;
+  }
+  
+  main>.item{
+             flex:none;
+             width:300px;margin:10px;
+            }
+  
+  
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
                 <li><a href="https://www.netflix.com/">Netflix</a></li>
                 <li><a href="https://tw.yahoo.com/">Yahoo</a></li>
                 <li><a href="https://www.w3schools.com/tags/">W3School</a></li>
-              }
+  </main>
     
   
-  <div class="topleft">My Website</div>
+  
     
   
 </body>
