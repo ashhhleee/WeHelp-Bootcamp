@@ -6,13 +6,13 @@
   <title>Welcome to MyHome</title>
   <style type="text/css">
   .topleft{
-          position:absolute;
-          top:8px;
-          left:16px;
-          font-weight:bold;
-          font-size:20px;
-          font-face:Lucida Grande;
-          }
+           display:flex;
+           justify-content:flex-start;
+           align-items:center;
+           font-weight:bold;
+           font-size:20px;
+           font-face:Lucida Grande;
+           }
     
   .topright{
            display:flex;
@@ -22,6 +22,11 @@
            font-size:20px;
            font-face:Lucida Grande;
            }
+  
+  .navitem{
+          flex:none;
+          width:25%;
+          }
 
     
   
@@ -36,11 +41,10 @@
   <div>
     <nav class="topright">
     
-    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc" style="text-decoration:none;">Item1</a>
-    <br>
-    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc">Item2</a>
-    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc">Item3</a>
-    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc">Item4</a>
+    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc" style="text-decoration:none;";"navitem">Item1</a>
+    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc" style="text-decoration:none;";"navitem">Item2</a>
+    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc" style="text-decoration:none;";"navitem">Item3</a>
+    <a href="https://www.youtube.com/watch?v=0YnDKAJCzTc" style="text-decoration:none;";"navitem">Item4</a>
       
     </nav>
   </div>
