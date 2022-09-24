@@ -27,10 +27,8 @@
     display:none;
 }
 
-@media (max-width:500px){
-    .right{
-        display:flex;
-    }
+@media (max-width:600px){
+
 
     .desktop-menu{
         display:none;
@@ -44,7 +42,7 @@
     }
 }
 
-@media (max-width:1250px){
+@media (max-width:1200px){
 
     .frame{
         flex-wrap:wrap;
@@ -72,7 +70,7 @@
      align-items:center;
      height:300px;
      font-family:Times New Roman;
-     background-color:#cccccc;
+     background-color:beige;
      margin-bottom:50px;
      }
 
@@ -84,12 +82,12 @@
    text-align:center;
   }
 
-  @media (max-width:500px){
+  @media (max-width:600px){
     .text{
         font-size:20px;
     }
-    .product{
-        width:90%
+    .item{
+        width:90%;
     }
 }
 
@@ -100,7 +98,6 @@
     align-items:center;
     margin-bottom:10px;
     height:50px;
-    background-color: #DAF7A6;
 }
 
 .promotion{
@@ -113,10 +110,10 @@
              font-family:Times New Roman;
              width:595px;
              height:50px;
-             background-color: #999FBF;
+             background-color: #E4EABC;
             }
 
-@media (max-width:1250px){
+@media (max-width:1200px){
 
     .headline{
         flex-wrap:wrap;
@@ -126,13 +123,13 @@
     }
 }
             
-@media (max-width:500px){
+@media (max-width:600px){
             
     .headline{
         flex-wrap:wrap;
     }
     .promotion{
-        width:90%
+        flex-wrap:wrap;
     }
 }
 
@@ -143,23 +140,19 @@
         justify-content: center;
         align-items: center;
         margin:0px auto;
-        background-color: pink;
 }
 
 .image1{
-    display:flex;
-    justify-content:center;
-    align-items:flex-end;
     height:150px;
     width:290px;
     margin-right:10px;
     margin-bottom:10px;
     font-size:20px;
     font-family:Times New Roman;
-    background-color: #999FBF;
+    background-color: #CDEABC;
 }
 
-@media (max-width:1250px){
+@media (max-width:1200px){
 
     .second{
         flex-wrap:wrap;
@@ -169,7 +162,7 @@
     }
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
 
     .second{
         flex-wrap:wrap;
@@ -188,25 +181,21 @@
     justify-content: center;
     align-items: center;
     margin:0px auto;
-    background-color: beige;
 }
 
 .image2{
-    display:flex;
-    justify-content:center;
-    align-items:flex-end;
     height:150px;
     width:290px;
     margin-right:10px;
     margin-bottom:10px;
     font-size:20px;
     font-family:Times New Roman;
-    background-color: #999FBF;
+    background-color: #CDEABC;
 }
 
 
 
-@media (max-width:1250px){
+@media (max-width:1200px){
 
     .third{
         flex-wrap:wrap;
@@ -216,7 +205,7 @@
     }
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
 
     .fourth{
         flex-wrap:wrap;
@@ -235,27 +224,8 @@
 
 
 
-.fourth{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin:0px auto;
-    background-color:blanchedalmond;
-}
 
-.image3{
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    height:120px;
-    width:290px;
-    margin-right:10px;
-    font-size:20px;
-    font-family:Times New Roman;
-    background-color: #999FBF;
-}
-
-@media (max-width:1250px){
+@media (max-width:1200px){
 
     .fourth{
         flex-wrap:wrap;
@@ -265,7 +235,7 @@
     }
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
 
     .fourth{
         flex-wrap:wrap;
@@ -278,41 +248,21 @@
 
 
 .title-text{
-        flex:none;
+        display:flex;
         justify-content:center;
-        align-items:flex-end;
+        align-items:center;
         font-size:20px;
         font-family:Times New Roman;
 }
 
 .picture{
+    display:flex;
     width:290px;
     height:120px;
+
  }
 
 
  
 
 
-.fifth{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin:0px auto;
-    background-color:aqua;
-    
-}
-
-.image4{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:20px;
-    font-family:Times New Roman;
-    background-color: #999FBF;
-    margin-right:10px;
-    margin-bottom:10px;
-    width:290px;
-    height:30px;
-
-}
